@@ -5,3 +5,18 @@ How is the staging area different from the working directory and the repository?
 	The staging area is the place that indicates new addition/deletion of files for the next commit.
 	The working directory may contain files that are either part of the repository (under version control) or no added yet.
 	Value: ?
+	
+	
+How can you use the staging area to make sure you have one commit per logical change?
+	Just add to staging area only those files that are involved in the logical change.
+	The working directory may contain other dirty files, but only the ones on the staging area will be part of a future commit.
+		
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Don't quite get this one. The best organization for history would be linear, so I can't imagine branches helping.
+	
+How do the diagrams help you visualize the branch structure?
+	A picture is worth a thousand words
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Include the functionality of both branches into a single commit. 
+	The new commit has two parents (each brach acts as one parent)
